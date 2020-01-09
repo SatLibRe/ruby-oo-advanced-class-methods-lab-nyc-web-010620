@@ -49,6 +49,7 @@ class Song
     song1 = self.create
     song1.name =  song_array[0].strip.to_s
     song1.artist_name =  song_array[1].strip.split(".")[0].to_s
+    binding.pry
   end
   
   def self.destroy_all 
